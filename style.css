@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans|Montserrat|Sacramento&display=swap');
+
+/*
+font-family: 'Merriweather Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Sacramento', cursive; */
+
+body{
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+
+}
+
+.container{
+  height: 600px;
+  background-color: #E0EBE8;
+  position: relative;
+  display: flex;
+
+}
+
+h1,h2,h3,h4 {
+  color: #4AB19A;
+}
+
+img.logo {
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  left: 10%;
+  margin-top: 3%;
+  border-radius: 70%;
+
+}
+
+.textarea{
+  position: absolute;
+  text-align: center;
+  top: 37%;
+  right: 37%;
+}
+
+
+h1.text1{
+  font-size: 100px;
+  font-family: 'Sacramento', cursive;
+  line-height: 0;
+}
+
+h3.text2{
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1;
+
+}
+
+.image1 {
+  height: 70px;
+  width: 130px;
+  position: absolute;
+  right: 20%;
+  top: 20%;
+}
+
+.image2 {
+  height: 70px;
+  width: 130px;
+  position: absolute;
+  top: 70%;
+  left: 20%
+}
+
+.links{
+  position: absolute;
+  right:10%;
+  margin-top: 5%;
+}
+
+a{
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  text-align: right;
+  padding: 20px;
+  color: #4AB19A;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+a:hover{
+  color: green;
+}
+
+hr{
+  opacity:70%;
+  width: 30%;
+  border-style: dotted;
+  color: gray;
+  border-width: thick;
+  border-bottom: 0;
+  border-radius: 0;
+  border-left: : 0;
+}
+
+p{
+  line-height: 26px;
+  color: #000001;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+
+.skill-row{
+  padding-left: 20px;
+  width: 60%;
+  margin: auto;
+}
+
+.images{
+  height: 200px;
+  width:200px;
+  padding: 20px;
+  float: left;
+}
+
+.myButton {
+	background-color:#44c767;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background-color: lightblue;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.footer{
+  font-size: 14px;
+  padding-top: 30px;
+  color: #4AB19A;
+  background-color: #E0EBE8;
+}
+
+@media only screen and (max-width: 600px) {
+  h1.text1{
+    font-size: 65px !important;
+    position: relative;
+    top: 30px;
+    padding-bottom: 25px;
+    left: 60px;
+    line-height: 1px;
+  }
+
+.text2{
+  font-size: 20px !important;
+  position: relative;
+  top: 30px;
+  padding-bottom: 25px
+  left: 60px;
+  }
+
+  .skill-row{
+    padding-left: 20px;
+    width: 100%;
+    margin: auto;
+  }
+
+  }
